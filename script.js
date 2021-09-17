@@ -1,4 +1,4 @@
-var x = document.getElementById("myTopnav");
+let x = document.getElementById("myTopnav");
 
 function myFunction() {
     if (x.className === "topnav") {
