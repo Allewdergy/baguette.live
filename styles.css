@@ -34,9 +34,7 @@ body {
     text-align: center;
     padding-left: 14px;
     padding-right: 14px;
-    font-size: large;
     text-decoration: none;
-    font-size: 17px;
     border-left: 1px solid rgb(102, 102, 102);
     height: 20px;
 }
@@ -107,8 +105,7 @@ body {
       font-weight: 700;
 }
 
-.box input[type="text"],.box input[type="password"] {
-      border: 0;
+.box input[type="email"],.box input[type="password"] {
       background: none;
       display: block;
       margin: 20px auto;
@@ -122,13 +119,7 @@ body {
       transition: 0.25px;
 }
 
-.box input[type="text"],.box input[type="password"].focus {
-    width: 270px;
-    border-color: #7e7e7eb7;
-}
-
 .box input[type="submit"] {
-    border: 0;
     background: none;
     display: block;
     margin: 20px auto;
